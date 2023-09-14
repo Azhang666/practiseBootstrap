@@ -1,0 +1,43 @@
+* {
+  overflow-x: hidden;
+}
+li > img.myw {
+  width: 6vw;
+}
+li > a.myfz {
+  font-size: 0.5rem;
+}
+div > ul.mybc {
+  background-color: black;
+}
+li.nav-item > a.mybc {
+  background-color: rgb(207, 0, 0);
+}
+div > div.mybgc {
+  background-image: rgb(0, 0, 0);
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 113vh;
+}
+div > img.myw {
+  width: 60%;
+}
+div > .myfz1 {
+  font-size: 0.75rem;
+}
+div > .pe-6 {
+  padding-right: 30%;
+}
+body {
+  background-color: black;
+}
+div.col-3 > img {
+  /* width: 100%; */
+}
+div.col-12 > .myfz2 {
+  font-size: 2rem;
+}

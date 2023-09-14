@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/netflix_style.css" />
+  </head>
+  <body>
+    <!-- 需求 和 提示: -->
+    <!-- 1.首頁固定在網頁最上方: 40_Utilities/40_fixed-top.html -->
+    <!-- 2.頁首項目對齊方式: 40_Utilities/ 35_flex.html -->
+    <!-- 3.[類似影片]區塊依照網頁寬度決定是否留白邊: 20_Layout/15_container.html -->
+    <!-- 4.[類似影片]區塊依照網頁寬度調整每列顯示數量: 20_Layout/20_grid.html -->
+    <!-- -------------------------------------------------------------------- -->
+
+    <!-- 不限時數的節目與電影 -->
+
+    <!-- 神隱少女
+    2001 | 年齡分級：7+ | 2 小時 5 分鐘 | 動漫電影
+    千尋意外來到一個由女巫治理的魔法世界。在這裏，所有違抗女巫的人都被變成了動物。
+    主演：柊瑠美，入野自由，夏木麻里 -->
+
+    <!-- 這部傑作出自宮崎駿之手，是奧斯卡史上唯一一部抱回最佳動畫片的非英語電影。 -->
+
+    <!-- 類似影片 -->
+    <!-- https://www.netflix.com/tw/title/70028883 -->
+    <!-- https://www.netflix.com/tw/title/60032294 -->
+    <!-- https://www.netflix.com/tw/title/60027106 -->
+    <!-- https://www.netflix.com/tw/title/70106454 -->
+    <!-- https://www.netflix.com/tw/title/70019058 -->
+    <!-- https://www.netflix.com/tw/title/60027393 -->
+    <!-- https://www.netflix.com/tw/title/70216227 -->
+    <!-- https://www.netflix.com/tw/title/70045021 -->
+    <div class="containar h-100% w-100%">
+      <ul class="nav nav-pills flex-column flex-sm-row mybc">
+        <li class="nav-item me-auto">
+          <img src="./img/logonetflix.png" class="myw mt-2 mb-1 ms-4" alt="" />
+        </li>
+        <li class="nav-item">
+          <a
+            data-bs-toggle="pill"
+            class="nav-link text-white pe-1 pt-1 pb-1 mt-2 mb-1 myfz"
+            href="#"
+            >不限時數的節目與電影</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            data-bs-toggle="pill"
+            class="nav-link text-white ps-4 pe-4 pt-1 pb-1 mt-2 mb-1 me-2 myfz rounded-0 mybc"
+            href="#"
+            >立即加入</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            data-bs-toggle="pill"
+            class="nav-link text-white border border-white border-opacity-50 pt-1 pb-1 mt-2 mb-1 me-5 myfz rounded-0"
+            href="#"
+            >登入</a
+          >
+        </li>
+      </ul>
+      <img
+        class="img-fluid position-absolute"
+        src="./img/spirited_away.jpg"
+        alt=""
+      />
+      <div class="row position-relative">
+        <div class="col-6 mybgc ps-5 pt-5">
+          <img
+            class="myw mt-5 ms-5"
+            src="./img/spirited_away_logo.jpg"
+            alt=""
+          />
+          <p class="mt-5 ms-5 text-white fs-3">神隱少女</p>
+          <p class="mt-2 ms-5 text-secondary myfz1">
+            2001 | 年齡分級：7+ | 2 小時 5 分鐘 | 動漫電影
+          </p>
+          <p class="mt-2 ms-5 pe-6 text-white myfz1">
+            千尋意外來到一個由女巫治理的魔法世界。在這裏，所有違抗女巫的人都被變成了動物。
+          </p>
+          <p class="mt-2 ms-5 myfz1 d-inline text-secondary">主演：</p>
+          <span class="mt-2 myfz1 text-white">柊瑠美，入野自由，夏木麻里</span>
+        </div>
+        <div class="col-6"></div>
+      </div>
+    </div>
+  </body>
+</html>
